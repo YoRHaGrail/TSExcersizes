@@ -5,7 +5,7 @@ interface vehicle {
     summary(): string
 }
 
-var oldCivivc = {
+var oldCivivc:vehicle = {
     name: 'civic',
     year: 2000,
     broken: true,
